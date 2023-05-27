@@ -4,6 +4,7 @@
 ```
 git clone https://github.com/biganashvili/landcraft.git .
 cd ./landcraft
+go mod tidy
 go run ./cmd/api/main.go
 ```
 outputs preinited lands:
